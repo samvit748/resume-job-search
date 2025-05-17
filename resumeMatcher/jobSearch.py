@@ -1,9 +1,14 @@
 from serpapi import GoogleSearch
 
 def search_jobs_on_google(skills, api_key, location):
-    # Combine skills into a single search phrase
+    """
+    This function searches for jobs on Google using SerpAPI.
+    It takes skills, API key, and location as input.
+    """
+
     search_query = " ".join(skills) + " jobs"
-    print(f"Initiating Google Jobs search for: {search_query}")
+    print(f"Searching Google Jobs for: {search_query}")
+
 
     params = {
         "engine": "google_jobs",
@@ -12,44 +17,51 @@ def search_jobs_on_google(skills, api_key, location):
         "api_key": api_key
     }
 
+    # Send the search request
     search = GoogleSearch(params)
     response = search.get_dict()
 
-    print("Received keys from SerpAPI response:", response.keys())
+    print("Response keys received from SerpAPI:", response.keys())
 
+    # Check if there was an error in the response
     if "error" in response:
-        print(f"Error from SerpAPI: {response['error']}")
+        print("Error:", response["error"])
         return []
 
+    # Get the job results from the response
     job_results = response.get("jobs_results", [])
     if not job_results:
-        print("No job listings found in the response.")
+        print("No jobs found.")
         return []
 
-    processed_jobs = []
+    final_jobs = []
+
     for job in job_results:
-        apply_url = None
+
+        apply_link = None
 
         
         if "job_apply_link" in job:
-            apply_url = job["job_apply_link"]
-        
-        elif "related_links" in job:
-            for link_info in job["related_links"]:
-                if "apply" in link_info.get("text", "").lower():
-                    apply_url = link_info.get("link")
-                    break
-        
-        if not apply_url:
-            title_terms = "+".join(job.get("title", "").split())
-            company_terms = "+".join(job.get("company_name", "").split())
-            apply_url = f"https://www.google.com/search?q={title_terms}+{company_terms}+job+apply"
+            apply_link = job["job_apply_link"]
 
-        processed_jobs.append({
+        # Otherwise, look for related links with "apply" in text
+        elif "related_links" in job:
+            for item in job["related_links"]:
+                if "apply" in item.get("text", "").lower():
+                    apply_link = item.get("link")
+                    break
+
+        
+        if not apply_link:
+            title = "+".join(job.get("title", "").split())
+            company = "+".join(job.get("company_name", "").split())
+            apply_link = f"https://www.google.com/search?q={title}+{company}+job+apply"
+
+        final_jobs.append({
             "title": job.get("title", "N/A"),
             "company": job.get("company_name", "N/A"),
             "location": job.get("location", "N/A"),
-            "link": apply_url
+            "link": apply_link
         })
 
-    return processed_jobs
+    return final_jobs
