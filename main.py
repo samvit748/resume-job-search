@@ -19,7 +19,7 @@ print(f"🔍 Profile identified as: {profile_category}")
 resume_vector = embedding_model.encode(text_from_resume, convert_to_tensor=True)
 
 
-skills_input = input("Enter skills (comma-separated) to tailor your job search:\n> ")
+skills_input = input("Enter skills (comma-separated) to optimize your job search:\n> ")
 
 # Normalize skills for comparison (lowercase)
 extracted_skills_lower = [skill.lower() for skill in extracted_skills]
@@ -51,7 +51,7 @@ if not jobs_found:
     print("No jobs were found matching.")
     exit()
 
-print("\n Here are a few sample job links for your reference:")
+print("\n Here are a few sample job links:")
 for job in jobs_found[:3]:
     print(f"{job['title']} ➡ {job['link']}")
 
@@ -86,4 +86,4 @@ with open("job_results.csv", "w", newline="", encoding="utf-8") as csvfile:
 
         csv_writer.writerow([job_title, company_name, job_loc, apply_url, ", ".join(target_skills), profile_category, f"{similarity:.3f}"])
 
-print("Job search results have been saved to job_results.csv")
+print("Job search results have been saved")
