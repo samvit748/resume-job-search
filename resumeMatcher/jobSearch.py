@@ -6,10 +6,11 @@ def search_jobs_on_google(skills, api_key, location):
     It takes skills, API key, and location as input.
     """
 
+    # Join all the skills to create a search query
     search_query = " ".join(skills) + " jobs"
     print(f"Searching Google Jobs for: {search_query}")
 
-
+    # Set the parameters for the SerpAPI request
     params = {
         "engine": "google_jobs",
         "q": search_query,
@@ -37,10 +38,10 @@ def search_jobs_on_google(skills, api_key, location):
     final_jobs = []
 
     for job in job_results:
-
+        # Try to find the apply link
         apply_link = None
 
-        
+        # Check for direct apply link
         if "job_apply_link" in job:
             apply_link = job["job_apply_link"]
 
@@ -57,6 +58,7 @@ def search_jobs_on_google(skills, api_key, location):
             company = "+".join(job.get("company_name", "").split())
             apply_link = f"https://www.google.com/search?q={title}+{company}+job+apply"
 
+        # Add job info to the list
         final_jobs.append({
             "title": job.get("title", "N/A"),
             "company": job.get("company_name", "N/A"),
