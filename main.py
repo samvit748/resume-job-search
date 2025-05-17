@@ -29,7 +29,7 @@ input_skills = [skill.strip().lower() for skill in skills_input.split(",")]
 target_skills = [skill for skill in extracted_skills_lower if skill in input_skills]
 
 if not target_skills:
-    print("The skills you entered weren't found in your resume. Displaying general matches instead.")
+    print("The skills you entered weren't found in your resume.")
     target_skills = extracted_skills_lower[:3]  # default to top 3 skills
 else:
     print("Concentrating job search on:", ", ".join(target_skills))
@@ -48,7 +48,7 @@ job_location = input("Enter preferred job location: ")
 jobs_found = search_jobs_on_google(keywords, api_key, job_location)
 
 if not jobs_found:
-    print("No jobs were found matching your criteria.")
+    print("No jobs were found matching.")
     exit()
 
 print("\n Here are a few sample job links for your reference:")
