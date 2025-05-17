@@ -1,6 +1,6 @@
 import csv
-from utils.extract_resume import extract_text_from_pdf, extract_skills, detect_profile_type
-from utils.jobSearch import search_jobs_on_google  
+from resumeMatcher.extract_resume import extract_text_from_pdf, extract_skills, detect_profile_type
+from resumeMatcher.jobSearch import search_jobs_on_google  
 from sentence_transformers import SentenceTransformer, util
 
 # --- Load the semantic embedding model ---
