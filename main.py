@@ -32,7 +32,7 @@ if not common_skills:
 else:
     print("Searching jobs based on skills:", ", ".join(common_skills))
 
-
+# Add extra keywords based on profile type
 if profile_type == "Fresher":
     search_keywords = common_skills + ["fresher", "entry level"]
 else:
@@ -54,7 +54,7 @@ print("\nSample job results:")
 for job in job_results[:3]:
     print(f"{job['title']} ➡ {job['link']}")
 
-
+# Step 4: Rank jobs based on how well they match the resume
 def rank_jobs_by_similarity(jobs, resume_embedding):
     results = []
     for job in jobs:
