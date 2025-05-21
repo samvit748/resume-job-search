@@ -1,5 +1,34 @@
-Job Title,Company,Location,Link,Skills Used,Profile Type,Match Score
-Senior Python Development,Houzeo India Pvt Ltd,India,https://www.google.com/search?q=Senior+Python+Development+Houzeo+India+Pvt+Ltd+job+apply,python,Fresher,0.391
-Python Programmer Needed for Remote Work,beBee Careers,India,https://www.google.com/search?q=Python+Programmer+Needed+for+Remote+Work+beBee+Careers+job+apply,python,Fresher,0.314
-Data Science (AI & Python Program Developers),MNJ Software,Anywhere,https://www.google.com/search?q=Data+Science+(AI+&+Python+Program+Developers)+MNJ+Software+job+apply,python,Fresher,0.256
-Python Developer - Remote,AlgorithmX,India,https://www.google.com/search?q=Python+Developer+-+Remote+AlgorithmX+job+apply,python,Fresher,0.249
+Job Title,Company,Location,Link,Source,Skills Used,Profile Type,Similarity Score
+Software Application Engineering Manager,Intel,Bengaluru,https://www.naukri.com/job-listings-software-application-engineering-manager-intel-technology-india-pvt-ltd-bengaluru-7-to-10-years-290425916849,Naukri,"css, java, machine learning",Fresher,0.423
+React Developer,GITS RECRUITMENT PRIVATE LIMITED,"Bangalore, Chennai",https://www.shine.com/jobs/react-developer/gits-recruitment-private-limited/17060062,Shine,"css, java, machine learning",Fresher,0.422
+GenAI Specialist,CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED,"Bangalore, Noida
++7",https://www.shine.com/jobs/genai-specialist/capgemini-technology-services-india-limited/17157284,Shine,"css, java, machine learning",Fresher,0.417
+GenAI Specialist,CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED,"Bangalore, Noida
++7",https://www.shine.com/jobs/genai-specialist/capgemini-technology-services-india-limited/17157286,Shine,"css, java, machine learning",Fresher,0.417
+Senior LLM Engineer,Guru Kripa Consultants,"Bangalore, Chennai
++7",https://www.shine.com/jobs/senior-llm-engineer/guru-kripa-consultants/17104605,Shine,"css, java, machine learning",Fresher,0.414
+Software Engineer Fresher,Karnataka Information Solution,"Bangalore, Chennai
++1",https://www.shine.com/jobs/software-engineer-fresher/karnataka-information-solution/17104641,Shine,"css, java, machine learning",Fresher,0.396
+GPSG-Application Developer: Full Stack Developer,IBM,Bengaluru,https://www.naukri.com/job-listings-gpsg-application-developer-full-stack-developer-ibm-india-pvt-limited-bengaluru-3-to-6-years-200525924986,Naukri,"css, java, machine learning",Fresher,0.392
+Software Developer Internships ( 2024 - 2025 ) batch,Yugayatra Retail OPC Private Limited,Bangalore,https://www.timesjobs.com/job-detail/software-developer-internships-2024-2025-batch-yugayatra-retail-opc-private-limited-bengaluru-bangalore-hyderabad-secunderabad-0-to-1-yrs-jobid-Oqb5Dm3cPflzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.388
+Machine Learning Engineer,Analytics Vidhya,Bangalore,https://www.timesjobs.com/job-detail/machine-learning-engineer-analytics-vidhya-bengaluru-bangalore-1-to-2-yrs-jobid-Xtl7n__PLUS__e8__SLASH__6FzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.384
+"WalkMe Specialist or, Developer for Bangalore",WHITE HORSE MANPOWER CONSULTANCY (P) LTD,Bangalore,https://www.shine.com/jobs/walkme-specialist-or-developer-for-bangalore/white-horse-manpower-consultancy-p-ltd/17021169,Shine,"css, java, machine learning",Fresher,0.373
+Hiring for Data Scientist Leading NBFC Firm_Bangalore,RightMatch HR Services Pvt. Ltd.,Bangalore,https://www.shine.com/jobs/hiring-for-data-scientist-leading-nbfc-firm-bangalore/rightmatch-hr-services-pvt-ltd/17036034,Shine,"css, java, machine learning",Fresher,0.357
+Senior Machine Learning Engineer,ORACLE,Bangalore,https://www.timesjobs.com/job-detail/senior-machine-learning-engineer-oracle-bengaluru-bangalore-3-to-5-yrs-jobid-uL3pCaDOfttzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.342
+Machine Learning Engineer,Angel and Genie,Bangalore,https://www.timesjobs.com/job-detail/machine-learning-engineer-angel-and-genie-bengaluru-bangalore-gurgaon-pune-chandigarh-navi-mumbai-4-to-9-yrs-jobid-IGJsxwbJL__PLUS__xzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.338
+Machine Learning Engineer 5,Adobe Systems Ltd,Bangalore,https://www.timesjobs.com/job-detail/machine-learning-engineer-5-adobe-systems-ltd-bengaluru-bangalore-5-to-8-yrs-jobid-GFTwUIfz__SLASH__phzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.336
+MLOps Engineer,CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED,"Bangalore, Noida
++7",https://www.shine.com/jobs/mlops-engineer/capgemini-technology-services-india-limited/17157291,Shine,"css, java, machine learning",Fresher,0.335
+MLOps Engineer,CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED,"Bangalore, Noida
++7",https://www.shine.com/jobs/mlops-engineer/capgemini-technology-services-india-limited/17157290,Shine,"css, java, machine learning",Fresher,0.335
+Senior Machine Learning Developer,Hucon Solutions India Pvt ltd,Bangalore,https://www.timesjobs.com/job-detail/senior-machine-learning-developer-hucon-solutions-india-pvt-ltd-bengaluru-bangalore-pune-bhubaneshwar-5-to-10-yrs-jobid-ME2bUgVdWKdzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.334
+Plant Operator,VFS GLobal Services,Bangalore,https://www.timesjobs.com/job-detail/plant-operator-vfs-global-services-ahmedabad-bengaluru-bangalore-kolkata-jamshedpur-bellary-9-to-14-yrs-jobid-5waXWRO7fTtzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.324
+Artificial intelligence / Machine Learning Engineer,Cotocus,Bangalore,https://www.timesjobs.com/job-detail/artificial-intelligence-machine-learning-engineer-cotocus-bengaluru-bangalore-2-to-8-yrs-jobid-T8sb9odwo__PLUS__lzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.321
+Research Architect (Emerging Technologies),SpeEdLabs,Bengaluru,https://www.naukri.com/job-listings-research-architect-emerging-technologies-speedlabs-bengaluru-6-to-8-years-280425918587,Naukri,"css, java, machine learning",Fresher,0.318
+Senior Data Scientist - Machine Learning,HR Jobs Placements,Bangalore,https://www.timesjobs.com/job-detail/senior-data-scientist-machine-learning-hr-jobs-placements-ahmedabad-bengaluru-bangalore-chennai-delhi-gurgaon-5-to-10-yrs-jobid-GuPVWXTeeeNzpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.309
+Machine Learning & AI Developer,Hucon Solutions India Pvt ltd,Bangalore,https://www.timesjobs.com/job-detail/machine-learning-ai-developer-hucon-solutions-india-pvt-ltd-bengaluru-bangalore-gurgaon-noida-greater-noida-pune-bhubaneshwar-4-to-9-yrs-jobid-axd14vEfUc5zpSvf__PLUS__uAgZw==&source=srp,TimesJobs,"css, java, machine learning",Fresher,0.295
+KDB Developer,Luxoft,"Bengaluru, Remote",https://www.naukri.com/job-listings-kdb-developer-luxoft-india-llp-bengaluru-remote-2-to-7-years-190525913578,Naukri,"css, java, machine learning",Fresher,0.275
+Vertex AI Engineer (Java/Python),Swits Digital,Bengaluru,https://www.naukri.com/job-listings-vertex-ai-engineer-java-python-swits-digital-private-limited-bengaluru-4-to-8-years-220425501490,Naukri,"css, java, machine learning",Fresher,0.274
+App Automation Eng Specialist,Accenture,Bengaluru,https://www.naukri.com/job-listings-app-automation-eng-specialist-accenture-solutions-pvt-ltd-bengaluru-7-to-11-years-120525921542,Naukri,"css, java, machine learning",Fresher,0.258
+Senior Data Scientist - Multi-Agent AI Systems,CAPGEMINI TECHNOLOGY SERVICES INDIA LIMITED,"Bangalore, Hyderabad
++1",https://www.shine.com/jobs/senior-data-scientist-multi-agent-ai-systems/capgemini-technology-services-india-limited/17059982,Shine,"css, java, machine learning",Fresher,0.254
